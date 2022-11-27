@@ -1,0 +1,58 @@
+.navbar{
+    background-color: gainsboro;
+}
+.nav-link{
+    border: none;
+    color: black;
+    background-color: gainsboro;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    letter-spacing: 5px;
+    font-weight: 200;
+    color: rgb(102, 153, 197);
+}
+.navbar-brand{
+    padding-top: 20px;
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: x-large;
+    letter-spacing: 5px;
+    color: rgb(102, 153, 197);
+}
+.navbar-nav{
+    margin-left: 40%;
+}
+.main{
+    margin: 5% 10%;
+}
+.post, .title{
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+input[type='text']{
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+textarea{
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+.publish{
+    border: none;
+    color: white;
+    background-color: rgb(45, 113, 177);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+@media only screen and (max-width:1275px) {
+    .navbar-nav{
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width:991px) {
+    .navbar-nav{
+        margin-left: 0%;
+    }
+}

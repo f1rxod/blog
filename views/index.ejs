@@ -1,0 +1,11 @@
+<%- include('header'); -%>
+<h1 style="text-align: center; margin-bottom: 30px;">Home</h1>
+<p> <%= p_1 %> </p>
+
+<h3 style="text-align: center; margin: 50px 0;">Your Daily Posts</h3>
+<%posts.forEach(function(post){ %>
+    <h1 ><%=post.title%></h1>
+    <p style="margin:5px 0 40px;"><%=post.body.substring(0, 100) + '...'%> <a href= '/posts/ <%= post.title %>' > Read More </a> </p>
+<%})%>
+
+<%- include('footer'); -%>
