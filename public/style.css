@@ -1,6 +1,9 @@
 .navbar{
     background-color: gainsboro;
 }
+html{
+    background-color: aquamarine;
+}
 .nav-link{
     border: none;
     color: black;
